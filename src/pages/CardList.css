@@ -1,0 +1,249 @@
+/* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.credit-card {
+  width: 320px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.credit-card:hover {
+  transform: scale(1.05);
+}
+
+.default-card {
+  border: 3px solid gold;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bank-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-number {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: "Courier New", monospace;
+  letter-spacing: 2px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.gpay-button {
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.gpay-icon {
+  font-size: 24px; 
+  color: #4285f4; 
+}
+
+.gpay-button:hover {
+  background: #f8f9fa;
+  transform: scale(1.05);
+} */
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.credit-card {
+  width: 320px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.credit-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.default-card {
+  border: 3px solid gold;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bank-name {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.card-number {
+  font-size: 22px;
+  margin: 15px 0;
+  font-family: "Courier New", monospace;
+  letter-spacing: 3px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.gpay-button {
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.gpay-icon {
+  font-size: 24px;
+  color: #4285f4;
+}
+
+.gpay-button:hover {
+  background: #f8f9fa;
+  transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background: #2a5298;
+  color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.text-danger {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Button Enhancements */
+.btn-primary {
+  background: #007bff;
+}
+
+.btn-success {
+  background: #28a745;
+}
+
+.btn-danger {
+  background: #dc3545;
+}
+
+.btn-warning {
+  background: #ffc107;
+  color: black;
+}
+
+.btn-warning:hover {
+  background: #ffca2c;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-danger:hover {
+  opacity: 0.9;
+}

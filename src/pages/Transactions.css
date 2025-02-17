@@ -1,0 +1,30 @@
+.transactions-container {
+    padding: 20px;
+  }
+  
+  .transaction-card {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .transaction-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .transaction-card.debit {
+    background-color: #ffebe6;
+    border-left: 5px solid #ff4d4d;
+  }
+  
+  .transaction-card.credit {
+    background-color: #e6ffea;
+    border-left: 5px solid #28a745;
+  }
+  
+  .transaction-amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

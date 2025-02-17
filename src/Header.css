@@ -1,0 +1,14 @@
+.header {
+    background-color: #002147;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
